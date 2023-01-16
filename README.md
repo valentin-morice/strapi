@@ -1,1 +1,1 @@
-# Strapi CMS for newmayapur.com
+Strapi CMS for newmayapur.com
