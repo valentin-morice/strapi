@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_misc_activities",
+  "info": {
+    "displayName": "Activity",
+    "icon": "drum"
+  },
+  "options": {},
+  "attributes": {
+    "Time": {
+      "type": "time"
+    },
+    "Subject": {
+      "type": "string"
+    }
+  }
+}

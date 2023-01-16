@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Start": {
+      "type": "date"
+    },
+    "End": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Program": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Tag": {
+      "type": "enumeration",
+      "enum": [
+        "Temple",
+        "Discovery",
+        "Retreat"
+      ]
+    },
+    "Days": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::day.day"
+    },
+    "Teachers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::teacher.teacher"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}

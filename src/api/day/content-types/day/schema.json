@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "days",
+  "info": {
+    "singularName": "day",
+    "pluralName": "days",
+    "displayName": "Day"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Activity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "misc.activity"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}
