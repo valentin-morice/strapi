@@ -7,7 +7,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: "*",
-      origin: ["*"],
+      origin: ["https://staging.newmayapur.com"],
     },
   },
   "strapi::logger",
